@@ -1,0 +1,23 @@
+{
+  "name": "componentes",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@carbon/icons-react": "10.29.0",
+    "@carbon/layout": "10.22.0",
+    "@carbon/themes": "10.31.0",
+    "carbon-components": "10.32.1",
+    "carbon-components-react": "7.32.1",
+    "next": "10.1.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}
