@@ -1,0 +1,46 @@
+.General{
+    box-sizing: border-box;
+    margin: 0;
+    position:absolute;
+}
+
+.App{
+ width: 280px;
+ display: flex;
+}
+
+.img{
+    display: block;
+
+}
+
+.container{
+    margin: auto;
+    width: 280px;
+    max-width: 280px;
+    position: relative;
+}
+
+.container.selected{
+    width: 43px;
+    height: 43px;
+    margin: 0 auto;
+}
+
+
+.container.imgContainer{
+    width: 237px;
+    max-width: 237px;
+    height: 45px;
+    max-height: 45px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.container.imgContainer img{
+    width: 43px;
+    height: 43px;
+    margin: 5px;
+}
