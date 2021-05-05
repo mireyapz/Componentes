@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Imagenes from "./Imagenes";
 import React from 'react';
-import "./cGalleryImage.module.css";
 
 export default function Gallery (){
     
@@ -59,11 +58,10 @@ export default function Gallery (){
     }
 
     return(
-        <div className= "General">
-            <div className="App">
-                <div className= "container">
-                    <div
-                        style={{
+        <div >
+            <div>
+                <div>
+                    <div style={{
                             display: "flex",
                             paddingBottom: "10px"
                         }}>
@@ -77,7 +75,7 @@ export default function Gallery (){
                     </div>
 
                     
-                    <div className="imgContainer"
+                    <div
                     style={{
                         display: "flex",
                         alignContent: "center",
